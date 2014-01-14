@@ -1,0 +1,146 @@
+# Russian translation 
+# for desktop_drive_icons-0.0.5
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.5\n"
+"Report-Msgid-Bugs-To: forum.puppyrus.org\n"
+"POT-Creation-Date: 2014-01-10 11:21+0400\n"
+"PO-Revision-Date: 2014-01-10 23:49+0300\n"
+"Last-Translator: Sergey Rodin <rodin.s@rambler.ru>\n"
+"Language-Team: PuppyRus linux Team <www.puppyrus.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/desklet.c:338
+msgid "Couldn't get background image, transparency won't work"
+msgstr "Не удается использовать фоновое изображение, прозрачность не работает"
+
+#: ../src/icon.c:124
+msgid "Mount volume"
+msgstr "Монтировать раздел"
+
+#: ../src/icon.c:127
+msgid "Unmount volume"
+msgstr "Размонтировать"
+
+#: ../src/icon.c:130
+msgid "Eject removable media"
+msgstr "Извлечь диск"
+
+#: ../src/icon.c:136
+msgid "Settings..."
+msgstr "Настройки..."
+
+#: ../src/icon.c:205
+#: ../src/icon.c:209
+#, c-format
+msgid "%s (mounted at %s)"
+msgstr "%s (монтирован в %s)"
+
+#: ../src/icon.c:215
+#, c-format
+msgid "%s (not mounted)"
+msgstr "%s (не смонтирован)"
+
+#: ../src/icon.c:226
+msgid "Click here to unmount this volume."
+msgstr "Щелкните здесь для размонтирования"
+
+#: ../src/icon.c:227
+msgid "Click here to eject this volume."
+msgstr "Щелкните здесь для извлечения диска"
+
+#: ../src/icon.c:228
+msgid "This volume cannot be unmounted."
+msgstr "Этот раздел не может быть размонтирован"
+
+#: ../src/icon.c:229
+msgid "This is a bug, please report as soon as possible"
+msgstr "Это ошибка в программе, пожалуйста сообщите разработчикам"
+
+#: ../src/icon.c:433
+#: ../src/icon.c:500
+#, c-format
+msgid "Error mounting %s"
+msgstr "Ошибка монтирования %s"
+
+#: ../src/icon.c:446
+#: ../src/icon.c:449
+#, c-format
+msgid "Error unmounting %s"
+msgstr "Ошибка размонтирования %s"
+
+#: ../src/icon.c:470
+#: ../src/icon.c:473
+#, c-format
+msgid "Error ejecting %s"
+msgstr "Ошибка извлечения %s"
+
+#. Error
+#: ../src/settings.c:207
+#: ../src/settings.c:215
+#, c-format
+msgid "Couldn't read config file: %s"
+msgstr "Невозможно прочитать файл настроек: %s"
+
+#: ../src/settings.c:406
+msgid "Position of the drive icons:"
+msgstr "Размещение значков разделов и дисков"
+
+#: ../src/settings.c:410
+msgid "X: "
+msgstr ""
+
+#: ../src/settings.c:413
+#: ../src/settings.c:423
+msgid "Offset: "
+msgstr "Отступ: "
+
+#: ../src/settings.c:420
+msgid "Y: "
+msgstr ""
+
+#: ../src/settings.c:431
+msgid "Maximum no. of lines in an icon label (0 for infinity): "
+msgstr "Максимум строк для метки диска (0 без ограничений)"
+
+#: ../src/settings.c:437
+msgid "Show frame around the icons"
+msgstr "Показывать рамку вокруг значков"
+
+#: ../src/settings.c:444
+msgid "Arrange all icons vertically"
+msgstr "Расположить все значки вертикально"
+
+#: ../src/settings.c:451
+msgid "Reverse icon packing order"
+msgstr "Обратный порядок значков"
+
+#: ../src/settings.c:461
+msgid "Font color:"
+msgstr "Цвет шрифта:"
+
+#: ../src/settings.c:469
+msgid "Shadow color:"
+msgstr "Цвет тени:"
+
+#: ../src/settings.c:482
+msgid "Post mount command:"
+msgstr "Выполнить после монтирования:"
+
+#: ../src/settings.c:493
+msgid "Post unmount command:"
+msgstr "Выполнить после размонтирования:"
+
+#: ../src/settings.c:716
+msgid "The volume is (probably) mounted at virtual location,cannot open"
+msgstr "Раздел (возможно) монтирован как виртуальная файловая система, не удается открыть"
+
+#: ../src/settings.c:745
+#, c-format
+msgid "Error while running command \"%s\": %s"
+msgstr "Ошибка при выполнении команды \"%s\": %s"
+
