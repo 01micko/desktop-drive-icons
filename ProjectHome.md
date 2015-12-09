@@ -1,0 +1,1 @@
+This is a small workaround for unsupported desktop managers like ROX-Filer display icons for each mountable drive.
